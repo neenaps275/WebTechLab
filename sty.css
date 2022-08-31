@@ -1,0 +1,283 @@
+#bd
+{
+    background-color: rgb(36, 0, 128);
+}
+#one
+{
+    top:8%;
+    position:absolute;
+    height: 168px;
+    width: 35%;
+    background-color:white;
+    font-size: 23px;
+}
+#two
+{
+    top:33%;
+    position:absolute;
+    height: 392px;
+    width: 35%;
+    background-color:white;
+}
+#i1
+{
+    top:0.5%;
+    position:absolute;
+    height: 737px;
+    width:62%;
+    background-color:white;
+    right:1%;
+}
+#four
+{
+    left:1%;
+    top:88%;
+    position:absolute;
+    height: 70px;
+    width: 15%;
+    background-color:white;
+}
+#five
+{
+    left:20%;
+    top:88%;
+    position:absolute;
+    height: 70px;
+    width: 15%;
+    background-color:white;
+}
+#p1
+{
+    text-align:center;
+    font-size:17px;
+}
+#p2
+{
+    text-align:center;
+    font-size:15px;
+}
+#p3
+{
+    font-size:16px;
+}
+#p4
+{
+    text-align:center;
+    font-size:23px;
+}
+#p5,#p6,#p7,#p8,#p9
+{
+    text-align:center;
+}
+#ti
+{
+    left:35%;
+    width:35%;
+    height:23px;
+    text-align:center;
+    color:white;
+    font-size:23px;
+}
+#p1
+{
+    text-align:center;
+}
+table, th, td 
+{
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+#pr2
+{
+
+  float:right;
+}
+#pr4
+{
+  margin-right:-18%;
+  float:right;
+}
+#arrowup 
+{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 15px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+} 
+#arrowup2 
+{
+    float:right;
+    margin-right:89%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 15px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+} 
+#arrowup3
+{
+    float:left;
+    margin-left:10%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 15px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#arrowup4
+{
+    float:left;
+    margin-top:-2%;
+    margin-left:9%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 15px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#arrowup5
+{
+    float:right;
+    margin-top:3%;
+    margin-right:9%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 17px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#arrowup6
+{
+    float:right;
+    margin-top:7%;
+    margin-right:8%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 17px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#arrowup7
+{
+    float:right;
+    margin-top:40%;
+    margin-right:-30%;
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    padding: 17px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+#t1
+{
+  float:bottom;
+  margin-top:-4%;
+}
+#t2
+{
+  margin-top:-20.5%;
+  float: right;
+  margin-right:89%;
+}
+#t3
+{
+    margin-top:-12%;
+    float:right;
+    margin-right:85%;
+}
+#t4
+{
+    margin-top:-60%;
+    float: right;
+    margin-right:50%; 
+}
+#t5
+{
+    margin-top:-12%;
+    float:right;
+    margin-right:108%;
+}
+#t6
+{
+    margin-top:-22%;
+    float:right;
+    margin-right:75%;
+}
+#t7
+{
+    margin-top:-2%;
+    float:left;
+    margin-left:10%;
+}
+#t8
+{
+    margin-top:0%;
+    float:left;
+    margin-left:-24%;
+}
+#t9
+{
+    margin-top:-2%;
+    float:right;
+    margin-right:93%;
+}
+#t10
+{
+    margin-top:-4%;
+    float:right;
+    margin-right:85%;
+}
+#t11
+{
+    margin-top:-11%;
+    float:right;
+    margin-right:81%;
+}
+#t12
+{
+    margin-top:-11.5%;
+    float:right;
+    margin-right:74%;
+}
+#t13
+{
+    margin-top:-12.5%;
+    float:right;
+    margin-right:66%;
+}
+#t14
+{
+    margin-top:4%;
+    float:right;
+    margin-right:5%;   
+}
+#t15
+{
+    margin-top:10%;
+    float:right;
+    margin-right:-7%;   
+}
+#t24
+{
+    margin-top:1%;
+    float:right;
+    margin-right:-88%;   
+}
+#t16
+{
+    margin-top:23%;
+    float:right;
+    margin-right:-16%;   
+}#t18
+{
+    margin-top:1%;
+    float:right;
+    margin-right:-88%;   
+}#t19
+{
+    margin-top:1%;
+    float:right;
+    margin-right:-88%;   
+}

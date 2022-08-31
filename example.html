@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huffman Coding</title>
+    <link rel="stylesheet" href="sty.css">
+
+</head>
+
+<body>
+
+    <p id="p9"><strong><u>EXAMPLE</u></strong></p>
+
+<pre>
+Let us consider an example string: SEE SAW        
+Total Characters present in the string: 7 (including white space)
+</pre>
+<pre id="pr1">
+<pre id="pr2">
+<strong>Step 2:</strong>Arrange the characters based on the
+frequency of the charaters in ascending order.
+<table>
+ <tr>
+    <th>1&nbsp;&nbsp;&nbsp;</th>
+    <th>1&nbsp;&nbsp;&nbsp;</th>
+    <th>1&nbsp;&nbsp;&nbsp;</th>
+    <th>2&nbsp;&nbsp;</th>
+    <th>2&nbsp;&nbsp;</th>
+ </tr>
+ <tr>
+    <td>SPACE&nbsp;&nbsp;&nbsp;</td>
+    <td>A&nbsp;&nbsp;&nbsp;</td>
+    <td>W&nbsp;&nbsp;&nbsp;</td>
+    <td>S&nbsp;&nbsp;&nbsp;</td>
+    <td>E&nbsp;&nbsp;&nbsp;</td>
+ </tr>
+</table>
+    </pre>  
+<strong>Step 1:</strong>Find the frequency of the characters
+present in the string.  
+<table>
+    <tr>
+      <th>2&nbsp;&nbsp;&nbsp;</th>
+      <th>2&nbsp;&nbsp;&nbsp;</th>
+      <th>1&nbsp;&nbsp;&nbsp;</th>
+      <th>1&nbsp;&nbsp;</th>
+      <th>1&nbsp;&nbsp;</th>
+    </tr>
+    <tr>
+      <td>S&nbsp;&nbsp;&nbsp;</td>
+      <td>E&nbsp;&nbsp;&nbsp;</td>
+      <td>SPACE&nbsp;&nbsp;&nbsp;</td>
+      <td>A&nbsp;&nbsp;&nbsp;</td>
+      <td>W&nbsp;&nbsp;&nbsp;</td>
+    </tr>
+  </table>
+</pre> 
+<pre id="pr3">
+<pre id="pr4">
+<strong>Step 4:</strong><table>
+    <tr>
+      <th rowspan="2" width="40%">&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th>2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+      <th>2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+     </tr>
+     <tr>
+       <td>S&nbsp;&nbsp;&nbsp;&nbsp;</td>
+       <td>E&nbsp;&nbsp;&nbsp;&nbsp;</td>
+     </tr>
+     </table>
+ <h id="arrowup">&nbsp;&nbsp;</h>
+<table id="t3">
+ <tr>
+ <th>&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+ </tr>
+</table>
+<h id="arrowup2">&nbsp;&nbsp;</h>
+<table id="t5">
+ <tr>
+    <th>1</th>
+ </tr>
+<tr>
+    <td>SPACE</td>
+</tr>
+<table id = "t6">
+ <tr>
+    <th>1&nbsp;&nbsp;&nbsp;&nbsp;</th>
+ </tr>
+ <tr>
+    <td>A&nbsp;&nbsp;&nbsp;&nbsp;</td>
+ </tr>
+</table>        
+<table id="t4">
+<tr>
+  <th>&nbsp;&nbsp;1&nbsp;&nbsp;</th>
+</tr>
+<tr>
+  <td>&nbsp;&nbsp;W&nbsp;&nbsp;</td>
+</tr>
+</table>
+
+<pre>
+<strong>Step 6:</strong>
+<table>
+    <table id="t14">
+        <tr>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;7&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+       </table>
+       <h id="arrowup5">&nbsp;&nbsp;</h>
+       <table id="t15">
+        <tr>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+       </table>
+       <h id="arrowup6">&nbsp;&nbsp;</h>
+       <table id="t16">
+        <tr>
+        <th>&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+       </table>
+       <h id="arrowup7">&nbsp;&nbsp;</h>
+       <table id="t24">
+        <tr>
+        <th>&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+       </table>
+</table>
+</pre>
+</pre>
+<strong>Step 3:</strong>Add the two minimum frequencies &
+represent them in the form of a tree.
+Here the minimum frequency is 1 but,
+whitespace,A & W has minimum vaue 1.
+So take any two characters &
+add those two frequencies.
+       <table>
+       <tr>
+         <th rowspan="2" width="40%">&nbsp;&nbsp;2&nbsp;&nbsp;</th>
+         <th>1&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+         <th>3&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+          <td>W&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>S&nbsp;&nbsp;&nbsp;&nbsp;</td>
+          <td>E&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+        </table>
+   <h id="arrowup">&nbsp;&nbsp;</h>
+   <table id="t1">
+    <tr>
+        <th>1</th>
+    </tr>
+    <tr>
+        <td>SPACE</td>
+    </tr>
+    <table id = "t2">
+        <tr>
+            <th>1&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+            <td>A&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+Likewise , we have to select the 2 minimum 
+frequencies and combine them.
+Finally it will look like a tree-like structure.
+    <strong>Note:</strong>While combining the 
+    values simultaneously put 0 & 1 for the
+    characters of which we combine.        
+</pre>
+<pre>
+<strong>Step 5:</strong><table id="t7">
+         <tr>
+            <th rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;3&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+            <th rowspan="2">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;4&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</th>
+       </tr>
+      </table>
+      <h id="arrowup3">&nbsp;&nbsp;</h>
+      <h id="arrowup4">&nbsp;&nbsp;</h>
+      <table id="t8">
+        <tr>
+        <th>&nbsp;&nbsp;2&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+       </table>
+       <h id="arrowup2">&nbsp;&nbsp;</h>
+       <table id="t9">
+        <tr>
+           <th>1</th>
+        </tr>
+       <tr>
+           <td>SPACE</td>
+       </tr>
+       </table>
+       <table id = "t10">
+        <tr>
+           <th>1&nbsp;&nbsp;&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+           <td>A&nbsp;&nbsp;&nbsp;&nbsp;</td>
+        </tr>
+       </table>
+       <table id="t11">
+        <tr>
+          <th>&nbsp;&nbsp;1&nbsp;&nbsp;</th>
+        </tr>
+        <tr>
+          <td>&nbsp;&nbsp;W&nbsp;&nbsp;</td>
+        </tr>
+        </table>   
+        <table id="t12">
+            <tr>
+               <th>&nbsp;&nbsp;2&nbsp;&nbsp;</th>
+            </tr>
+           <tr>
+               <td>&nbsp;&nbsp;S&nbsp;&nbsp;</td>
+           </tr>
+           </table>
+           <table id = "t13">
+            <tr>
+               <th>&nbsp;&nbsp;2&nbsp;&nbsp;</th>
+            </tr>
+            <tr>
+               <td>&nbsp;&nbsp;E&nbsp;&nbsp;</td>
+            </tr>
+           </table>
+</pre>
+
+</body>
+
+</html>

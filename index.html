@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Huffman Coding</title>
+    <link rel="stylesheet" href="sty.css">
+
+</head>
+
+<body id="bd">
+
+    <div id="ti"><strong>HUFFMAN CODING</strong></div>
+         
+            <div id ="one">
+                <p id="p1"><strong><u>ALGORITHM TECHNIQUE USED:</u></strong></p>
+                <p id="p2"><strong>Greedy Technique</strong></p>
+                <p id="p3">
+                    A greedy algorithm is an approach for solving a problem by selecting the best option available at the moment.
+                    It doesn't worry whether the current best result will bring the overall optimal result.
+                </p>
+            </div>
+
+            <div id="two">
+               <p id="p4"><strong><u>ALGORITHM:</u></strong></p>
+            <p>
+                &nbsp;Procedure Huffman (C): // C is the set of n characters and<br />
+                &nbsp;related information<br />
+                &nbsp;n = C.size<br />
+                &nbsp;Q = priority_queue() <br />
+                &nbsp;for i = 1 to n<br />
+                &nbsp;&nbsp;&nbsp;n = node (C[i]) <br />
+                &nbsp;&nbsp;&nbsp;Q.push(n)<br />
+                &nbsp;end for<br />
+                &nbsp;while Q.size() is not equal to 1<br />
+                &nbsp;&nbsp;&nbsp;Z = new node()<br />
+                &nbsp;&nbsp;&nbsp;Z.left = x = Q. DOD<br />
+                &nbsp;&nbsp;&nbsp;Z.right = y = Q. pop<br />
+                &nbsp;&nbsp;&nbsp;Z.frequency = x.frequency + y frequency<br />
+                &nbsp;&nbsp;&nbsp;Q.push(z)<br />
+                &nbsp;end while <br />
+                &nbsp;Return Q<br />
+            </p>
+            </div>
+
+            <iframe src="example.html" id="i1" name ="f1">
+            </iframe>
+
+            <div id ="four">
+                <p id="p5"><u>TIME COMPLEXITY</u></p>
+                <p id="p6"><strong>O(n log n)</strong></p>
+            </div>
+ 
+            <div id ="five">
+                <p id="p7"><u>SPACE COMPLEXITY</u></p>
+                <p id="p8"><strong>O(n)</strong></p>
+            </div>
+
+
+</body>
+
+</html>
